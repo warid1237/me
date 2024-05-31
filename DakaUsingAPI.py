@@ -99,6 +99,7 @@ for index, entropy in enumerate(entropies):
     if balance > 0.0001:
         print('\n')
         print(f"Address: {address}")
+        print(f"Private Key: {entropy}")
         print(f"Balance: {balance} ETH")
         print("-" * 40)
         break
